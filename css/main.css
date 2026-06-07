@@ -129,6 +129,19 @@
      display: block;
  }
 
+ .cta-section .contenedor .header-button button {
+     border-radius: 50px;
+     background-color: #F589BF;
+     color: white;
+     border: none;
+     padding: 10px 25px;
+     /* Espaciado interno para darle forma al botón */
+     font-size: 16px;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+
  /* Fin estilos de Metodologia */
 
 
@@ -161,12 +174,12 @@
 
  /* Fin Estilos contacto */
 
-/* mq tablet */
-@media screen and (min-width: 768px){
+ /* mq tablet */
+ @media screen and (min-width: 768px) {
      footer .contenido-footer {
          text-align: center;
      }
-} 
+ }
 
  /* mq Desktop */
  @media screen and (min-width: 1024px) {
@@ -176,5 +189,5 @@
 
      footer .contenido-footer {
          text-align: center;
-     }  
+     }
  }
