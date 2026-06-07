@@ -1,0 +1,51 @@
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+
+/* Estilos del banner */
+
+.banner {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Foto_mesa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    @include contenedor;
+    color: white;
+    padding: 0 20px;
+
+    h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        font-family: 'Arial', sans-serif;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+}
+
+.banner-content {
+    max-width: 800px;
+}
+
+ .btn-explorar {
+     display: inline-block;
+     background-color: $btn-explorar;
+     color: white;
+     padding: 15px 40px;
+     text-decoration: none;
+     border-radius: 50px;
+     font-weight: bold;
+     transition: background 0.3s ease;
+
+     :hover{
+         background-color:$btn-explorar-hover;
+     }
+ }
+
+  /* Fin estilos del banner */

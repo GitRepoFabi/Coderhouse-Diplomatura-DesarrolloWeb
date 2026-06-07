@@ -1,0 +1,9 @@
+@use "./base/reset";
+@use "./pages/header";
+@use "./pages/banner";
+@use "./pages/proyectos";
+@use "./pages/metodologia";
+@use "./pages/sobreMi";
+@use "./pages/contacto";
+@use "./layout/mq-tablet";
+@use "./layout/mq-desktop";

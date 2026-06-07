@@ -1,0 +1,12 @@
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+
+/* mq tablet */
+
+@media screen and (min-width: 768px) {
+    footer {
+        .contenido-footer {
+            text-align: center;
+        }
+    }
+}

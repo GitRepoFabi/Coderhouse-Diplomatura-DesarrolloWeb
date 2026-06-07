@@ -1,0 +1,17 @@
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+
+/* Estilos contacto */
+
+section {
+    div.contacto {
+        text-align: center;
+        margin: 10px;
+
+        p {
+            margin: 20px;
+        }
+    }
+}
+
+ /* Fin Estilos contacto */

@@ -1,0 +1,29 @@
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+
+/* Estilos de Metodologia */
+
+section {
+    div.contenedor {
+        display: block;
+    }
+}
+
+.cta-section {
+    .contenedor {
+        .header-button {
+            button {
+                border-radius: 50px;
+                background-color: $color-princial;
+                color: white;
+                border: none;
+                padding: 10px 25px;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+/* Fin estilos de Metodologia */

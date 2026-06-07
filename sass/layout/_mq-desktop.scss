@@ -1,0 +1,16 @@
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+
+/* mq Desktop */
+
+@media screen and (min-width: 1024px) {
+    .imagenes-proyectos {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    footer{
+        .contenido-footer {
+            text-align: center;
+        }
+    }
+}
