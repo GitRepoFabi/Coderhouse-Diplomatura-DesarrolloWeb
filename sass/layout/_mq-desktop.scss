@@ -8,9 +8,38 @@
         grid-template-columns: repeat(4, 1fr);
     }
 
-    footer{
+    footer {
         .contenido-footer {
             text-align: center;
         }
+    }
+
+    header {
+        nav {
+            div {
+                .header-button {
+                    button {
+                        transition: transform 200ms ease, box-shadow 200ms ease, background-color 200ms ease;
+                    }
+
+                    button:hover {
+                        transform: translateY(-2px);
+                        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+                        background-color: darken($color-princial, 7%);
+                    }
+                }
+            }
+        }
+
+         ul {
+            a {
+                transition: color 200ms ease, transform 200ms ease;
+            }
+
+            a:hover {
+                color: $color-princial; // ajustalo a tu paleta
+                transform: translateY(-2px);
+            }            
+         }
     }
 }

@@ -18,21 +18,10 @@ header nav div .header-button button {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  transition: transform 200ms ease, box-shadow 200ms ease, background-color 200ms ease;
-}
-header nav div .header-button button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-  background-color: rgb(242.2109375, 104.0890625, 173.15);
 }
 header nav ul a {
   text-decoration: none;
   color: #333;
-  transition: color 200ms ease, transform 200ms ease;
-}
-header nav ul a:hover {
-  color: #F589BF;
-  transform: translateY(-2px);
 }
 header nav ul li {
   list-style: none;
@@ -162,6 +151,21 @@ section div.contacto p {
   }
   footer .contenido-footer {
     text-align: center;
+  }
+  header nav div .header-button button {
+    transition: transform 200ms ease, box-shadow 200ms ease, background-color 200ms ease;
+  }
+  header nav div .header-button button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    background-color: rgb(242.2109375, 104.0890625, 173.15);
+  }
+  header ul a {
+    transition: color 200ms ease, transform 200ms ease;
+  }
+  header ul a:hover {
+    color: #F589BF;
+    transform: translateY(-2px);
   }
 }
 
