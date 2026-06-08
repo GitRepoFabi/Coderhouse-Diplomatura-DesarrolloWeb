@@ -1,6 +1,7 @@
 @use "../utilities/mixin" as *;
 @use "../utilities/variables" as *;
 
+
 /* estilos de header */
 
 header {
@@ -23,6 +24,13 @@ header {
                     font-size: 16px;
                     font-weight: bold;
                     cursor: pointer;
+                    transition: transform 200ms ease, box-shadow 200ms ease, background-color 200ms ease;
+                }
+
+                button:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+                    background-color: darken($color-princial, 7%);
                 }
             }
         }
@@ -31,9 +39,16 @@ header {
             a {
                 text-decoration: none;
                 color: #333;
+                transition: color 200ms ease, transform 200ms ease;
             }
 
-            li{
+            a:hover {
+                color: $color-princial; // ajustalo a tu paleta
+                transform: translateY(-2px);
+            }
+
+
+            li {
                 list-style: none;
             }
 
