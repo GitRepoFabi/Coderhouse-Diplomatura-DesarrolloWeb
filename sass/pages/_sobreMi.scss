@@ -3,17 +3,37 @@
 
 /* Estilos sobre mi */
 
-section {
-    div.contenedor-sobre-mi {
-        text-align: center;
-        margin: 10px;
-        img{
-            border-radius: 50%;
-        }
-        h3{
-            color:$btn-explorar;
-        }
+// section {
+//     div.contenedor-sobre-mi {
+//         text-align: center;
+//         margin: 10px;
+//         img{
+//             border-radius: 50%;
+//         }
+//         h3{
+//             color:$btn-explorar;
+//         }
+//     }
+// }
+
+.contenedor-sobre-mi {
+    text-align: center;
+    margin: 10px;
+
+    h1 {
+        color: #f192c3;
     }
 }
 
- /* Fin estilos sobre mi */
+.contenido {
+  text-align: center;
+}
+
+#sobre-mi img {
+  border-radius: 50%;
+  display: block;
+  margin:0 auto;
+  padding: 30px;
+}
+
+/* Fin estilos sobre mi */
